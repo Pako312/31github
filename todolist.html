@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="./todolist.css">
+        <script src="https://kit.fontawesome.com/c0e6a1ffb7.js"
+            crossorigin="anonymous"></script>
+        <title>Document</title>
+    </head>
+    <body>
+        <div class="wrap">
+            <header><h1>Todo List</h1></header>
+            <div class="inputField">
+                <input type="text" maxlength="25"
+                    placeholder="Add your new todo" id="inp">
+                <button class="addBtn"> <i class="fa-solid fa-plus add-btn"></i>
+                </button>
+            </div>
+
+            <ul class="todolist">
+                <!-- <li class="checked"><span></span>df;lkgs;k <span><i class="fa-regular fa-circle-xmark"></i></span></li> -->
+            </ul>
+            <div class="footer">
+                <span> You have pending <span class="tasksNum"></span> tasks
+                </span>
+                <button id="clear" onclick="Delete()"> Clear All </button>
+            </div>
+        </div>
+
+        <script src="./todolist.js"></script>
+
+    </body>
+</html>
